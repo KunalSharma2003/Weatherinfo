@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather WebSite</title>
+    <link href='https://fonts.googleapis.com/css?family=Abyssinica SIL' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+        <div class="search-part">
+            <h4>Enter a City Name</h4>
+            <input type="text" id="input-box" placeholder=" E.g Jodhpur,Jaipur,Kota">
+            <button id="search-btn">Search</button>
+            <div class="separater"></div>
+            <button id="Location-btn">Use Current Location</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+            <div class="details">
+                <h2>____(____) </h2>
+                <h4>Temperature: __'C</h4>
+                <h4>Wind: __M/S</h4>
+                <h4>Humidity: __%</h4>
+            </div>
+            <div class="weather-icon">
+                <!-- <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-image" >
+                <h4>Monsoon</h4> -->
+            </div>
+        </div>
+            <div class="days-forecast">
+                <h2>5-Day Forecast</h2>
+                <ul class="weather-card">
+                    <li class="card">
+                        <h2>(____) </h2>
+                        <h4>Temp: __'C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+
+                    <li class="card">
+                        <h2>(____) </h2>
+                        <h4>Temp: __'C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+
+                    <li class="card">
+                        <h2>(____) </h2>
+                        <h4>Temp: __'C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+
+                    <li class="card">
+                        <h2>(____) </h2>
+                        <h4>Temp: __'C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+
+                    <li class="card">
+                        <h2>(____) </h2>
+                        <h4>Temp: __'C</h4>
+                        <h4>Wind: __ M/S</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
