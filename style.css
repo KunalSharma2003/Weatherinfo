@@ -9,7 +9,7 @@ body{
 }
 h1{
     text-align: center;
-    background-color: blue;
+    background-color: #487Eb2;
     color:aliceblue;
     width: 100%;
 }
@@ -118,7 +118,7 @@ h1{
     flex-wrap: wrap;
 }
 .weather-card .card{
-    background: dimgray;
+    background: #E06F51;
     color: #fff;
     border-radius: 10px;
     list-style: none;
